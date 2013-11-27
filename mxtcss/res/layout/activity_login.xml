@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal" 
+tools:context=".LoginActivity" 
+android:background="@drawable/back"
+>
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+    
+        <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logo" />
+    
+    
+     <TextView
+        android:id="@+id/textview_enterprisecode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView_logo"
+        android:text="单位编号" />    
+        
+        
+    <EditText
+        android:id="@+id/edit_enterprisecode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_enterprisecode"
+        android:ems="10" />
+
+    
+    
+     <TextView
+        android:id="@+id/textview_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_enterprisecode"
+        android:text="用户名" />  
+    
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview_username"
+        android:ems="10" />
+
+    
+     <TextView
+        android:id="@+id/textview_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_username"
+        android:text="密码" />  
+    
+    <EditText
+        android:id="@+id/edit_passwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_password"
+        android:ems="10"
+        android:inputType="textPassword" >
+        <requestFocus />
+    </EditText>
+
+    
+     <Button
+        android:id="@+id/button_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_passwd"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b_login"
+        android:layout_alignRight="@+id/b_login"
+        android:layout_below="@+id/button_login"
+        android:layout_marginBottom="3dp"
+        android:layout_gravity="bottom"
+        android:text="重置" />
+
+   
+    
+</RelativeLayout>
+</LinearLayout>

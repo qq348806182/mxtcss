@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal" 
+        
+        >
+	 <RadioGroup  
+        android:id="@+id/radiogroups"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"  
+        android:layout_x="3px"  
+    >  
+        
+        <RadioButton
+            android:id="@+id/radio_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:text="照片" />
+
+        <RadioButton
+            android:id="@+id/radio_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="10px"
+            android:text="视频" />
+        </RadioGroup>
+        
+        <Button
+            android:id="@+id/btn_takephoto"
+            android:layout_width="80dp"
+            android:layout_marginLeft="25px"
+            android:layout_height="wrap_content"
+            android:text="拍照" />
+        
+        <Button
+            android:id="@+id/btn_takevideo"
+            android:layout_width="80dp"
+            android:layout_marginLeft="25px"
+            android:layout_height="wrap_content"
+            android:text="摄像" />
+        
+        
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/photolist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mxtcss</string>
+    <string name="hello_world">Hello worl11d!</string>
+    <string name="hello_world1">Hello worl11d!</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>
