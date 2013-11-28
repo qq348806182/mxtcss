@@ -17,7 +17,11 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
+/**
+ * ÉãÏñÏêÏ¸ĞÅÏ¢
+ * @author ljj
+ *
+ */
 public class VideoDetailActivity extends Activity {
 
 	public SurfaceView surfaceView ; 

@@ -47,9 +47,9 @@ public final class R {
         public static final int phone=0x7f020007;
     }
     public static final class id {
-        public static final int ItemImage=0x7f060023;
-        public static final int ItemTitle=0x7f060024;
-        public static final int LinearLayout01=0x7f060022;
+        public static final int ItemImage=0x7f060028;
+        public static final int ItemTitle=0x7f060029;
+        public static final int LinearLayout01=0x7f060027;
         public static final int MainActivityGrid=0x7f06000d;
         public static final int MainActivityImage=0x7f06000e;
         public static final int MainActivityText=0x7f06000f;
@@ -57,54 +57,60 @@ public final class R {
         /**  Messages IDs 
          */
         public static final int auto_focus=0x7f060000;
-        public static final int b_login=0x7f060019;
-        public static final int btn_photo_delete=0x7f060027;
-        public static final int btn_photo_upload=0x7f060026;
-        public static final int btn_takephoto=0x7f06001f;
-        public static final int btn_takevideo=0x7f060020;
-        public static final int btn_video_delete=0x7f06002b;
-        public static final int btn_video_play=0x7f06002a;
-        public static final int btn_video_upload=0x7f060029;
-        public static final int button_login=0x7f060017;
-        public static final int button_reset=0x7f060018;
+        public static final int b_login=0x7f06001e;
+        public static final int btn_photo_delete=0x7f06002c;
+        public static final int btn_photo_upload=0x7f06002b;
+        public static final int btn_takephoto=0x7f060024;
+        public static final int btn_takevideo=0x7f060025;
+        public static final int btn_video_delete=0x7f060030;
+        public static final int btn_video_play=0x7f06002f;
+        public static final int btn_video_upload=0x7f06002e;
+        public static final int button_login=0x7f06001c;
+        public static final int button_reset=0x7f06001d;
         public static final int decode=0x7f060001;
         public static final int decode_failed=0x7f060002;
         public static final int decode_succeeded=0x7f060003;
-        public static final int edit_enterprisecode=0x7f060012;
-        public static final int edit_passwd=0x7f060016;
-        public static final int edit_username=0x7f060014;
+        public static final int editText_lat=0x7f060011;
+        public static final int editText_lon=0x7f060012;
+        public static final int edit_enterprisecode=0x7f060017;
+        public static final int edit_passwd=0x7f06001b;
+        public static final int edit_username=0x7f060019;
         public static final int encode_failed=0x7f060004;
         public static final int encode_succeeded=0x7f060005;
-        public static final int imageView_logo=0x7f060010;
-        public static final int img_photo_preview=0x7f060025;
+        public static final int error=0x7f060014;
+        public static final int imageView_logo=0x7f060015;
+        public static final int img_photo_preview=0x7f06002a;
         public static final int launch_product_query=0x7f060006;
-        public static final int menu_settings=0x7f06002c;
-        public static final int photolist=0x7f060021;
-        public static final int preview_view=0x7f06001a;
+        public static final int menu_settings=0x7f060031;
+        public static final int photolist=0x7f060026;
+        public static final int preview_view=0x7f06001f;
         public static final int quit=0x7f060007;
-        public static final int radio_photo=0x7f06001d;
-        public static final int radio_video=0x7f06001e;
-        public static final int radiogroups=0x7f06001c;
+        public static final int radio_photo=0x7f060022;
+        public static final int radio_video=0x7f060023;
+        public static final int radiogroups=0x7f060021;
         public static final int restart_preview=0x7f060008;
         public static final int return_scan_result=0x7f060009;
         public static final int search_book_contents_failed=0x7f06000a;
         public static final int search_book_contents_succeeded=0x7f06000b;
-        public static final int surface_video_play=0x7f060028;
-        public static final int textview_enterprisecode=0x7f060011;
-        public static final int textview_password=0x7f060015;
-        public static final int textview_username=0x7f060013;
-        public static final int viewfinder_view=0x7f06001b;
+        public static final int surface_video_play=0x7f06002d;
+        public static final int textView_lat=0x7f060010;
+        public static final int textView_lon=0x7f060013;
+        public static final int textview_enterprisecode=0x7f060016;
+        public static final int textview_password=0x7f06001a;
+        public static final int textview_username=0x7f060018;
+        public static final int viewfinder_view=0x7f060020;
     }
     public static final class layout {
         public static final int activity_cusumer=0x7f030000;
         public static final int activity_cusumer_icon=0x7f030001;
-        public static final int activity_login=0x7f030002;
-        public static final int activity_zxing_layout=0x7f030003;
-        public static final int camera_layout=0x7f030004;
-        public static final int phone_info_layout=0x7f030005;
-        public static final int phone_info_layout_listitem=0x7f030006;
-        public static final int photo_detail_layout=0x7f030007;
-        public static final int video_detail_layout=0x7f030008;
+        public static final int activity_gps_layout=0x7f030002;
+        public static final int activity_login=0x7f030003;
+        public static final int activity_zxing_layout=0x7f030004;
+        public static final int camera_layout=0x7f030005;
+        public static final int phone_info_layout=0x7f030006;
+        public static final int phone_info_layout_listitem=0x7f030007;
+        public static final int photo_detail_layout=0x7f030008;
+        public static final int video_detail_layout=0x7f030009;
     }
     public static final class menu {
         public static final int activity_main=0x7f090000;

@@ -15,7 +15,11 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+/**
+ * µÇÂ¼´¦Àí
+ * @author ljj
+ *
+ */
 public class LoginActivity extends Activity {
 
 	EditText edit_enterprisecode = null;

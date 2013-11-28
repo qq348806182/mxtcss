@@ -15,7 +15,11 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 import android.widget.Toast;
-
+/**
+ * 普通用户菜单
+ * @author ljj
+ *
+ */
 public class CusumerActivity extends Activity {
 
 	GridView gridView ;
@@ -45,6 +49,9 @@ public class CusumerActivity extends Activity {
 				}
 				if(arg3 == 2){
 					startActivity(new Intent(Settings.ACTION_SETTINGS));
+				}
+				if(arg3 == 5){
+					startActivity(new Intent(CusumerActivity.this,GpsActivity.class));
 				}
 				
 			}

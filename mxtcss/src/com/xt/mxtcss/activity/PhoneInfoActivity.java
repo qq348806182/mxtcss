@@ -8,7 +8,11 @@ import com.xt.mxtcss.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.SimpleAdapter;
-
+/**
+ * 手机信息
+ * @author ljj
+ *
+ */
 public class PhoneInfoActivity extends Activity {
 
 	

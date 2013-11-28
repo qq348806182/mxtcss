@@ -1,7 +1,16 @@
 package com.xt.mxtcss.util;
 
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+
+import org.apache.http.client.ClientProtocolException;
+import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.xt.mxtcss.bean.CellInfo;
+
+import android.content.Context;
 import android.location.Location;
 import android.location.LocationManager;
 
@@ -31,7 +40,7 @@ public class GpsUtils {
 		 String result="";
 		 JSONObject data=null;
 		 if (cellIds == null||cellIds.size()==0) {
-		  DialogUtils.alert(ctx, "cell request param null");
+		  DialogUtils.alert(ctx,"", "cell request param null");
 		      return null;
 		     };
 		      
@@ -47,7 +56,7 @@ public class GpsUtils {
 		   loc.setLatitude((Double) data.get("latitude"));
 		   loc.setLongitude((Double) data.get("longitude"));
 		   loc.setAccuracy(Float.parseFloat(data.get("accuracy").toString()));
-		   loc.setTime(UtilTool.getUTCTime());
+		   loc.setTime(NetUtils.getUTCTime());
 		   return loc;
 		  } catch (JSONException e) {
 		   return null;

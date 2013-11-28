@@ -31,7 +31,11 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
-
+/**
+ * 相机管理
+ * @author ljj
+ *
+ */
 @SuppressLint("NewApi")
 public class CameraActivity extends Activity {
 

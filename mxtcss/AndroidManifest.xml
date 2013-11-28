@@ -9,13 +9,12 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name="com.xt.mxtcss.MxtcssApplication" >
+        android:name="MxtcssApplication" >
         <activity
             android:name=".activity.LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -25,7 +24,6 @@
             android:name=".activity.AdminActivity"
             android:label="@string/app_name" >
         </activity>
-        
          <activity
             android:name=".activity.CusumerActivity"
             android:label="@string/app_name" >
@@ -42,26 +40,22 @@
             android:name=".activity.PhotoDetailActivity"
             android:label="@string/app_name" >
         </activity>
-        
         <activity
             android:name=".activity.VideoDetailActivity"
             android:label="@string/app_name" >
         </activity>
-        
         <activity
             android:name=".zxing.CaptureActivity"
             android:label="@string/app_name" >
         </activity>
+         <activity
+            android:name=".activity.GpsActivity"
+            android:label="@string/app_name" >
+        </activity>
         
-       <service android:name="service.LogService" />
-       
-       
-       
-       
+       <service android:name=".service.LogService" />
+       <service android:name=".service.GpsService" />      
     </application>
-
-    
-    
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
 <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
@@ -73,6 +67,9 @@
 <uses-permission android:name="android.permission.WAKE_LOCK" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+ <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 
  <uses-feature android:name="android.hardware.camera" />

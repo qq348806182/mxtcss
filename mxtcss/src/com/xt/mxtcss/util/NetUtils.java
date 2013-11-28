@@ -222,25 +222,25 @@ public class NetUtils {
 	 }
 	 
 	 
-	 /**
+	/* *//**
 	  * 初始化，记得放在onCreate()方法里初始化，获取基站信息
 	  * 
 	  * @return
-	  */
+	  *//*
 	 public static ArrayList<CellInfo> init(Context ctx) {
 	  ArrayList<CellInfo> cellInfos = new ArrayList<CellInfo>();
 	   
 	  TelephonyManager tm = (TelephonyManager) ctx.getSystemService(Context.TELEPHONY_SERVICE);
 	  //网络制式
 	  int type = tm.getNetworkType();
-	      /**
+	      *//**
 	     * 获取SIM卡的IMSI码
 	     * SIM卡唯一标识：IMSI 国际移动用户识别码（IMSI：International Mobile Subscriber Identification Number）是区别移动用户的标志，
 	     * 储存在SIM卡中，可用于区别移动用户的有效信息。IMSI由MCC、MNC、MSIN组成，其中MCC为移动国家号码，由3位数字组成，
 	     * 唯一地识别移动客户所属的国家，我国为460；MNC为网络id，由2位数字组成，
 	     * 用于识别移动客户所归属的移动网络，中国移动为00，中国联通为01,中国电信为03；MSIN为移动客户识别码，采用等长11位数字构成。
 	     * 唯一地识别国内GSM移动通信网中移动客户。所以要区分是移动还是联通，只需取得SIM卡中的MNC字段即可
-	   */
+	   *//*
 	  String imsi = tm.getSubscriberId(); 
 	  DialogUtils.alert(ctx,"", "imsi: "+imsi);
 	  //为了区分移动、联通还是电信，推荐使用imsi来判断(万不得己的情况下用getNetworkType()判断，比如imsi为空时)
@@ -288,12 +288,12 @@ public class NetUtils {
 	 
 	 
 	 
-	 /**
+	 *//**
 	  * 电信
 	  * 
 	  * @param cellInfos
 	  * @param tm
-	  */
+	  *//*
 	 private static void cdma(ArrayList<CellInfo> cellInfos, TelephonyManager tm) {
 	  CdmaCellLocation location = (CdmaCellLocation) tm.getCellLocation();
 	  CellInfo info = new CellInfo();
@@ -320,12 +320,12 @@ public class NetUtils {
 	 }
 	 
 	 
-	 /**
+	 *//**
 	  * 移动
 	  * 
 	  * @param cellInfos
 	  * @param tm
-	  */
+	  *//*
 	 private static void mobile(ArrayList<CellInfo> cellInfos,
 	   TelephonyManager tm) {
 	  GsmCellLocation location = (GsmCellLocation)tm.getCellLocation();  
@@ -353,12 +353,12 @@ public class NetUtils {
 	 }
 	 
 	 
-	 /**
+	 *//**
 	  *  联通
 	  *  
 	  * @param cellInfos
 	  * @param tm
-	  */
+	  *//*
 	 private static void union(ArrayList<CellInfo> cellInfos, TelephonyManager tm) {
 	  GsmCellLocation location = (GsmCellLocation)tm.getCellLocation();  
 	  CellInfo info = new CellInfo();
@@ -388,5 +388,5 @@ public class NetUtils {
 	 }
 
 	 
-	 
+	 */
 }

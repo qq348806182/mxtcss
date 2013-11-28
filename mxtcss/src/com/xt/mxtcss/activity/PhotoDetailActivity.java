@@ -20,7 +20,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
-
+/**
+ * ’’∆¨œÍœ∏–≈œ¢
+ * @author ljj
+ *
+ */
 public class PhotoDetailActivity extends Activity {
 	
 	public ImageView imgView ;
